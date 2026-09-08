@@ -9,9 +9,9 @@ public class Suma extends OperacionAbstract {
         'a', 'b', 'resultado' y tambien todos sus metodos.
     */
 
-    @Override 
-    public void calcularResultado(){
-        resultado = a+b;
+    @Override
+    public void calcularResultado() {
+        setResultado(getA() + getB());
     }
     
 }
