@@ -18,7 +18,11 @@ public abstract class OperacionAbstract {
     }
 
     public int getResultado() {
-        return resultado;
+        /*
+            TODO: terminar el getter para que devuelva el 
+            contenido de 'resultado'
+        */
+       return 0;
     }
 
     public void setA(int a) {
